@@ -6,7 +6,7 @@
 
 import time
 
-from checks import AgentCheck
+from datadog_checks.checks import AgentCheck
 from gpustat import GPUStatCollection
 
 
